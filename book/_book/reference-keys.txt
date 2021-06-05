@@ -1,0 +1,16 @@
+thm:unnamed-chunk-1
+def:unnamed-chunk-2
+fig:nice-fig
+prerequisites
+sous-section
+sou-sous-sedctpo
+eflzef-f
+grand-titre
+sous-titre
+sousous-titre
+literature
+methods
+applications
+example-one
+example-two
+final-words

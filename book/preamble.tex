@@ -1,0 +1,28 @@
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{amssymb,amsmath}
+\usepackage[french]{babel}
+\usepackage{eurosym}
+\newtheorem{definition}{Définition}
+\newtheorem{theorem}{A retenir}
+
+
+
+\renewcommand\thesection       {\Roman{section}.}
+\renewcommand\thesubsection    {\thesection \arabic{subsection}.}
+\renewcommand\thesubsubsection {\thesubsection \alph{subsubsection})}
+\renewcommand\theparagraph     {\thesubsubsection.\arabic{paragraph}}
+\renewcommand\thesubparagraph  {\theparagraph.\arabic{subparagraph}}
+\setcounter{secnumdepth}{4}
+\def\tightlist{}
+\newcommand{\fiche}[3]{
+	\begin{center}
+		\textsc{#1}\\
+		#2\hfill\textit{#3}
+	\end{center}
+	\hrule\vspace{\baselineskip}
+}
+
+\newcounter{numeroexo}
+\newcommand{\exo}{\par\noindent\stepcounter{numeroexo}
+	\hspace{-.25cm}\fbox{\textbf{Exercice \arabic{numeroexo}}}\quad}

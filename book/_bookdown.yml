@@ -1,0 +1,12 @@
+book_filename: "book"
+delete_merged_file: true
+language:
+  ui:
+    edit: Edit
+    def_name: ''
+    chapter_name: "Chapitre "
+
+  label: 
+    thm: 'A Retenir '
+    def: 'Définition '
+    exr: 'Exercice'

@@ -1,0 +1,13 @@
+name: book
+title: book
+username: denis_prof
+account: denis_prof
+server: bookdown.org
+hostUrl: https://bookdown.org/__api__
+appId: 7742
+bundleId: 43397
+url: https://bookdown.org/denis_prof/book/
+when: 1622895649.72362
+lastSyncTime: 1622895649.72363
+asMultiple: FALSE
+asStatic: FALSE

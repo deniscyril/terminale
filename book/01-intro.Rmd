@@ -1,0 +1,49 @@
+# Démonstration {-}
+
+## Grand titre
+### Sous titre
+#### Sousous titre
+
+Et voici une équation inline $E=mc^2$. Affichage d'un résultat avec SI units: $\SI{3.2e12}{\kilo\gram\per\second}$. Ne fonctionne pas en HTML..
+
+Equation en ligne $$2x  = 3 -\sqrt{2}$$
+\begin{align}
+x &= 2x +5 \\
+-x &= 5 \\
+x &= -5 
+\end{align}
+
+Les vecteurs colonnes miam:
+$$\overrightarrow{v(t)} = \begin{pmatrix}v_x(t) &=& x'(t)\\
+v_y(t) &=& y'(t)
+\end{pmatrix}$$
+
+
+
+
+Insérer une image en utilisant le code markdown
+`![image](figures/fig.png)`
+
+![image](figures/fig.png)
+
+En modifiant la largeur: 200px
+![image](figures/fig.png){ width: 200px; }
+
+
+
+
+En utilisant knitr: 
+
+```{r , echo=FALSE, out.width="50%"}
+knitr::include_graphics("figures/fig.png")
+```
+
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively
+```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics("figures/fig.png")
+```
+
+
+
+
+
