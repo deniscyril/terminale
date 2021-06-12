@@ -5,9 +5,9 @@ account: denis_prof
 server: bookdown.org
 hostUrl: https://bookdown.org/__api__
 appId: 7743
-bundleId: 43408
+bundleId: 44497
 url: https://bookdown.org/denis_prof/book2/
-when: 1622903475.81611
-lastSyncTime: 1622903475.81612
+when: 1623426957.58238
+lastSyncTime: 1623426957.58239
 asMultiple: FALSE
 asStatic: FALSE

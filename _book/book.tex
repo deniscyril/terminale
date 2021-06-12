@@ -82,6 +82,16 @@
 \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -101,7 +111,7 @@
 \setcounter{secnumdepth}{5}
 \usepackage{booktabs}
 \usepackage{siunitx}
-\usepackage{amssymb,amsmath}
+%\usepackage{amssymb,amsmath}
 \usepackage[french]{babel}
 \usepackage{eurosym}
 \newtheorem{definition}{Définition}
@@ -130,22 +140,24 @@
 \ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
 
 \title{A Minimal Book Example}
 \author{Yihui Xie}
-\date{2021-06-05}
+\date{2021-06-11}
 
 \begin{document}
-\frontmatter
 \maketitle
 
-\mainmatter
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
 \hypertarget{prerequisites}{%
 \chapter{Prerequisites}\label{prerequisites}}
 
-This is a \emph{sample} book written in \textbf{Markdown}. You can use
-anything that Pandoc's Markdown supports, e.g., a math equation
-\(a^2 + b^2 = c^2\).
+This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports, e.g., a math equation \(a^2 + b^2 = c^2\).
 
 The \textbf{bookdown} package can be installed from CRAN or Github:
 
@@ -157,17 +169,14 @@ The \textbf{bookdown} package can be installed from CRAN or Github:
 \hypertarget{sou-sous-sedctpo}{%
 \subsection{sou sous sedctpo,}\label{sou-sous-sedctpo}}
 
-emzfe \BeginKnitrBlock{theorem}
-\protect\hypertarget{thm:unnamed-chunk-1}{}{(\#thm:unnamed-chunk-1)
-}Here is my theorem. \EndKnitrBlock{theorem}
+emzfe
+\begin{theorem}
+\protect\hypertarget{thm:unnamed-chunk-1}{}{\label{thm:unnamed-chunk-1} }Here is my theorem.
+\end{theorem}
 
-\hypertarget{eflzef-f}{%
-\chapter{eflzef f}\label{eflzef-f}}
-
-\BeginKnitrBlock{definition}
-
-\protect\hypertarget{def:unnamed-chunk-2}{}{(\#def:unnamed-chunk-2) }Un
-court circuit est un circuit court.. \EndKnitrBlock{definition}
+\begin{definition}
+\protect\hypertarget{def:unnamed-chunk-2}{}{\label{def:unnamed-chunk-2} }Un court circuit est un circuit court..
+\end{definition}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -177,12 +186,9 @@ court circuit est un circuit court.. \EndKnitrBlock{definition}
 \end{Highlighting}
 \end{Shaded}
 
-Remember each Rmd file contains one and only one chapter, and a chapter
-is defined by the first-level heading \texttt{\#}.
+Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading \texttt{\#}.
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to
-install TinyTeX (which includes XeLaTeX):
-\url{https://yihui.org/tinytex/}.
+To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
 
 \hypertarget{duxe9monstration}{%
 \chapter*{Démonstration}\label{duxe9monstration}}
@@ -197,11 +203,32 @@ install TinyTeX (which includes XeLaTeX):
 \hypertarget{sousous-titre}{%
 \subsubsection{Sousous titre}\label{sousous-titre}}
 
-Et voici une équation inline \(E=mc^2\). Affichage d'un résultat avec SI
-units: \(\SI{3.2e12}{\kilo\gram\per\second}\). Ne fonctionne pas en
-HTML..
+\exo
 
-Equation en ligne \[2x  = 3 -\sqrt{2}\] \begin{align}
+\hypertarget{sous-section-1}{%
+\section{sous section}\label{sous-section-1}}
+
+\hypertarget{sou-sous-sedctpo-1}{%
+\subsection{sou sous sedctpo,}\label{sou-sous-sedctpo-1}}
+
+emzfe
+
+\begin{definition}
+\protect\hypertarget{def:unnamed-chunk-6}{}{\label{def:unnamed-chunk-6} }Un court circuit est un circuit court..
+\end{definition}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
+\CommentTok{\# or the development version}
+\CommentTok{\# devtools::install\_github("rstudio/bookdown")}
+\end{Highlighting}
+\end{Shaded}
+
+Et voici une équation inline \(E=mc^2\). Affichage d'un résultat avec SI units: \(\SI{3.2e12}{\kilo\gram\per\second}\). Ne fonctionne pas en HTML..
+
+Equation en ligne \[2x  = 3 -\sqrt{2}\]
+\begin{align}
 x &= 2x +5 \\
 -x &= 5 \\
 x &= -5 
@@ -221,15 +248,14 @@ Insérer une image en utilisant le code markdown
 \caption{image}
 \end{figure}
 
-En modifiant la largeur: 200px \includegraphics{figures/fig.png}\{
-width: 200px; \}
+En modifiant la largeur: 200px
+\includegraphics{figures/fig.png}\{ width: 200px; \}
 
 En utilisant knitr:
 
 \includegraphics[width=0.5\linewidth]{figures/fig}
 
-Figures and tables with captions will be placed in \texttt{figure} and
-\texttt{table} environments, respectively
+Figures and tables with captions will be placed in \texttt{figure} and \texttt{table} environments, respectively
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -245,6 +271,35 @@ Figures and tables with captions will be placed in \texttt{figure} and
 
 \caption{Here is a nice figure!}\label{fig:nice-fig}
 \end{figure}
+
+\newpage
+
+Figures and tables with captions will be placed in \texttt{figure} and \texttt{table} environments, respectively
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{include\_graphics}\NormalTok{(}\StringTok{"figures/fig.png"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{figures/fig} 
+
+}
+
+\caption{Here is a nice figure!}\label{fig:unnamed-chunk-8}
+\end{figure}
+
+\hypertarget{rappel-de-chimie}{%
+\chapter{Rappel de chimie}\label{rappel-de-chimie}}
+
+Liste des notions:
+- Dissolution (composé moléculaire / ionique)
+- Solution
+- Concentration
+- Dilution
+- Fiche ions, molécules à connaître
 
 \hypertarget{literature}{%
 \chapter{Literature}\label{literature}}
@@ -272,5 +327,6 @@ Some \emph{significant} applications are demonstrated in this chapter.
 
 We have finished a nice book.
 
-\backmatter
+  \bibliography{book.bib,packages.bib}
+
 \end{document}

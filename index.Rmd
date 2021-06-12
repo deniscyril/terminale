@@ -4,8 +4,6 @@ author: "Yihui Xie"
 date: "`r Sys.Date()`"
 documentclass: book
 output: 
-
-    
   pdf_document:
     number_sections: true
     includes:
@@ -20,6 +18,7 @@ link-citations: yes
 description: This is a minimal example of using the bookdown package to write a book.
   The output format for this example is bookdown::gitbook.
 site: bookdown::bookdown_site
+
 ---
 
 # Prerequisites
@@ -39,7 +38,6 @@ Here is my theorem.
 ```
 
 
-# eflzef f 
 ```{definition}
 Un court circuit est un circuit court.. 
 ```
