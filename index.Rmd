@@ -1,6 +1,6 @@
 --- 
 title: "A Minimal Book Example"
-author: "Yihui Xie"
+author: "Cyril DENIS"
 date: "`r Sys.Date()`"
 documentclass: book
 output: 
