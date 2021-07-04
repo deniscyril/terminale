@@ -1,29 +1,41 @@
 --- 
-title: "A Minimal  Example"
+title: "Cours Physique-Chimie (Spécialité)"
 author: "Cyril DENIS"
 date: "`r Sys.Date()`"
-documentclass: book
-output: 
+output:
   pdf_document:
-    number_sections: true
+    number_sections: yes
     includes:
-      in_header: "preamble.tex"
-geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
-
+      in_header: preamble.tex
+  html_document:
+    df_print: paged
+documentclass: book
+geometry: left=2cm,right=2cm,top=2cm,bottom=2cm
 bibliography:
 - book.bib
 - packages.bib
 biblio-style: apalike
 link-citations: yes
-description: This is a minimal example of using the bookdown package to write a book.
-  The output format for this example is bookdown::gitbook.
+description: Elements de cours enseigné au lycée Georges Dumézil à Vernon
 site: bookdown::bookdown_site
-
 ---
 
 # Prerequisites
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+
+
+```{=latex}
+$4\times 3$
+\\
+
+
+```
+
+
+![Légende](~/Desktop/termniale/figures/tasse-a-mesurer.png)
+
+$$E = mc^2$$
 
 The **bookdown** package can be installed from CRAN or Github:
 
@@ -37,6 +49,10 @@ emzfe
 Here is my theorem.
 ```
 
+La mole est une unité de quantité de matière. C'est un nombre de choses.
+Dans une mole il y a $N_a$ (Nombre d'Avogadro) choses avec $N_a=\SI{6,02e23}{\per\mole}$\\
+\textit{Analogie : Dans une douzaine d'oeufs, il y a douze oeufs.\\
+Dans une mole d'oeufs, il y a $\SI{6,02e23}{}$ oeufs et dans une mole d'ions cuivre II, il y a $\SI{6,02e23}{}$  ions cuivre II.}\\
 
 ```{definition}
 Un court circuit est un circuit court.. 
@@ -51,6 +67,23 @@ install.packages("bookdown")
 Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
 
 To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
+
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+import numpy.random as rng
+import matplotlib.cm as cm
+from matplotlib.animation import FuncAnimation
+
+radii=(rng.random(int(1e3))+1)**2
+iota=2*np.pi*rng.random(int(1e3))
+x_posit=np.sqrt(radii)*np.cos(iota)
+y_posit=np.sqrt(radii)*np.sin(iota)
+plt.plot(x_posit, y_posit, 'go')
+
+plt.show()
+```
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages

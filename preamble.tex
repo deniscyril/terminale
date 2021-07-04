@@ -1,10 +1,11 @@
 \usepackage{booktabs}
 \usepackage{siunitx}
+\usepackage{chemfig}
 %\usepackage{amssymb,amsmath}
 \usepackage[french]{babel}
 \usepackage{eurosym}
 \newtheorem{definition}{Définition}
-\newtheorem{theorem}{A retenir}
+\newtheorem{theorem}{Application}
 
 
 
@@ -26,3 +27,12 @@
 \newcounter{numeroexo}
 \newcommand{\exo}{\par\noindent\stepcounter{numeroexo}
 	\hspace{-.25cm}\fbox{\textbf{Exercice \arabic{numeroexo}}}\quad}
+% Code pour boite noire
+\usepackage{tcolorbox}
+
+\newtcolorbox{blackbox}{
+  colback=red!10!white,
+  colframe=gray,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}

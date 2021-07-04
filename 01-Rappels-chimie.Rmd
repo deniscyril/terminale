@@ -1,10 +1,273 @@
-# Rappel de chimie
+# Rappels de Chimie 
 
-Liste des notions:
+## Calcul de quantité de matière
+### Quantité de matière et Nombre de particules
 
-- Dissolution (composé moléculaire / ionique)
-- Solution
-- Concentration 
-- Dilution
-- Fiche ions, molécules à connaître
+1. Faire un schéma représentant une mole d'atome de carbone. 
+2. Un échantillon de fer  contient $12.10^{22}$ atomes de fer. Quelle est la quantité de matière contenue dans cette échantillon.
+3. Combien de molécules contient un échantillon de 0,10 mol d'eau.
 
+
+### Masse et Masse Molaire
+
+1. Calculer la masse molaire des espèces chimique suivantes: $H_2O$, $CO_2$, $C_6H_{12}O_6$, $NO_3^{-}$ et $Cu(OH)_2$.
+2. On considère un échantillon de glucose $C_6H_{12}O_6$ de masse $m=20$ g. Quelle est la quantité de matière contenue dans cet échantillon ?
+3. Déterminer la masse de l'échantillon de fer contenant la même quantité de matière que l'échantillon précédent de glucose. On donne $M_{Fe}=56$ g/mol.
+4. Expliquer simplement pourquoi deux échantillons contenant la même quantité de matière n'ont pas en général la même masse.
+
+### Volume molaire et quantité de matière d'un gaz
+
+1. Rappeler la loi d'Avogadro-Ampère
+2. Donner une valeur du volume molaire d'un gaz en précisant les conditions à respecter pour que cette valeur soit correcte.
+3. Quelle est la quantité de matière de diazote contenue dans une bouteille de 1,5 L de ce gaz ?
+4. Estimez la quantité de matière d'air, contenue dans nos poumons lors d'une inspiration.
+5. En déduire la masse de dioxygène présente dans nos poumons.
+
+### Masse volumique et densité
+
+1. Quelle est la valeur de la masse volumique de l'eau en kg/L et en $mg/cm^3$ ?
+2. Le mercure est un métal liquide de masse volumiqu: $\rho= 13,6\:g/cm^3$. Quel est le volume occupé par un échantillon d'un kilogramme de mercure. Comparer avec un échantillon d'eau de même masse.
+3. On prélève 65 mL de paraffine $C_{18}H_{38}$ ayant pour densité 0,90. Quelle est la quantité de matière ainsi prélevée ?
+
+## Solutions aqueuses
+### Ions 
+
+1. Quels est le noms des susbtances suivantes: $C\ell^-$, $Na^+$, $NaC\ell$, $K^+$, $CuC\ell_2$.
+2. Donner la formule des espèces suivantes: eau, dioxyde de carbone, diazote, sel de cuisine, sulfate de sodium, ions cuivre(II), ions permanganate et ion sulfate.
+3. Compléter l'équation de dissolution du chlorure de sodium dans l'eau: $$NaC\ell(s)\longrightarrow Na^+(aq) + ...$$
+4. Que signifie (s) et (aq) dans l'équation précédente ?
+5. Ecrire l'équation de dissolution de $Na_2SO_4$, $KMnO_4$ et $C_6H_{12}O_6$ (attention piège !).
+
+### Concentrations
+
+1. On dissout 4,5 g de sel dans de l'eau jusqu'à obtenir un demi-litre d'eau salée. Calculer la contration massique  et la concentration molaire de cette solution.
+2. Cette fois on dissout 2,25 g dans 25 cL d'eau. Expliquer pourquoi bien que cette solution ne contienne que 2,25 g de sel, elle est aussi salée que la solution précédente.
+3. On dispose d'un litre de solution de glucose à 0,1 mol/L. On en verse 20 mL dans un bécher. 
+  a. Quelle est la concentration de la solution dans le bécher ?
+  b. Quelle est la quantité de matière en soluté présente dans le bécher ?
+4. On dissout 5,84 g de sel dans de l'eau, le volume de la solution obtenue est 150 mL.
+  a. Calculer la concentration molaire en ions chlorure de cette solution.
+  b. On répète exactement le même protocole en remplaçant $NaC\ell$ par $CuC\ell_2$. La masse molaire du chlorure de cuivre II vaut 134,4 g/mol. Calculer la concentration molaire en ions chlorure dans cette solution de chlorure de cuivre II.
+  
+  
+### Protocoles à connaître
+
+1. Dans quelle verrerie précise doit on toujours préparer une solution ?
+2. Comment s'appelle la technique permettant de préparer une solution de plus petite concentration à partir d'une solution initiale  concentrée. 
+3. Quelle verrerie particulière utilise-t-on spécifiquement pour réaliser une dilution ? Pourquoi ?
+2. Faire la liste du matériel nécessaire pour préparer par **dissolution** une solution de chlorure de sodium. Cette solution occupe un volume de 100 mL et a une concentration massique de 20 g par litre. Schématiser les étapes principales pour réaliser cette solution.
+
+### Calculs de dilution
+
+1. On prélève 5 mL d'une solution de concentration $C_1=3,0$ mol/L. On verse ce volume dans une fiole jaugée de 100 mL, puis on complète avec de l'eau.
+  - Calculer la quantité de matière présente dans le prélèvement de 5 mL
+  - En déduire la concentration de la solution obtenue
+2. On dispose d'une solution d'acide chlorhydrique à $C_1= 0,05$ mol/L. On réalise une dilution de manière à obtenir 50 mL de solution d'acide chlorhydrique à $C_2= 0,01$ mol/L. Rédiger le protocole de cette dilution (schémas + calcul)
+
+## Transformation chimique
+### Equilibrer une équation chimique
+1. Expliquer l'expression "conservation de l'élément chimique"
+2. Comment faire pour vérifier la conservation de la charge sur une équation chimique ?
+3. Equilibrer les équations chimiques suivantes:
+
+\begin{align}
+\mathrm{Al(s)+\ \ \ H_2O(l)}&\longrightarrow \ \ \ \mathrm{H_2(g)+ \ \ \ Al_2O_3(s)}\\
+\mathrm{NaOH(s)}&\longrightarrow \ \ \ \mathrm{Na(s)+\ \ \ O_2(g)+\ \ \ H_2(g)}\\
+\mathrm{SiCl_4(s)+\ \ \ H_2(g)}&\longrightarrow \ \ \ \mathrm{ Si(s)+\ \ \ HCl(g)}\\
+\mathrm{Al(s)+\ \ \ H^+(aq)}&\longrightarrow \ \ \ \mathrm{Al^{3+}(aq)+\ \ \ H_2(g)}\\
+%\mathrm{Zn(OH)_2(s)+\ \ \ H^+(aq) }&\longrightarrow \ \ \ \mathrm{Zn^{2+}(aq)+\ \ \ H_2O(l)}\\
+%\mathrm{Al(s)+\ \ \ Hg^{2+}(aq)}&\longrightarrow \ \ \ \mathrm{Al^{3+}(aq)+\ \ \ Hg(s)}\\
+\mathrm{Fe^{2+}(aq)+\ \ \ CN^-(aq)}&\longrightarrow \ \ \ \mathrm{Fe(CN)_6^{4-}(aq)}\\
+\mathrm{Al(s)+\ \ \ H_2O(l)}&\longrightarrow \ \ \ \mathrm{Al_2O_3(s)+\ \ \ H_2(g)}\\
+%\mathrm{CuO(s)+\ \ \ H^+(aq) }&\longrightarrow \ \ \ \mathrm{Cu^{2+}+\ \ \ H_2O(l)}\\
+\mathrm{Al_2O_3(s)+\ \ \ C(s)}&\longrightarrow \ \ \ \mathrm{CO(g)+\ \ \ Al_4O_3(s)}
+%\mathrm{As_4O_6(s)+\ \ \ HO^-(aq)}&\longrightarrow \ \ \ \mathrm{AsO_2^-(aq)+\ \ \ H_2O(l)}
+\end{align}
+
+### Tableau d'avancement
+
+1. On fait réagir 1,5 mol de carbone sur 1 mol de dioxygène. Il se forme du $CO_2$. Ecrire l'équation de la réaction et compléter le tableau suivant:
+
+| Etat          | Avancement | $C$ |$O_2$| $CO_2$ |
+|---------------|------------|:---:|:---:|:------:|
+| Initial       |            |$1,5$|$1,0$|  $0$   |
+| Intermédiaire |            |     |     |        |
+| Final         |            |     |     |        |
+
+2. Justifier que $O_2$ est le réactif limitant.
+3. Quel quantitié d'$O_2$ aurait on dû introduire initialement afin d'obtenir un mélange initial stoechiométrique ?
+
+4. On considère la combustion du fer (Fe) dans le dioxygène. Cette réaction produit uniquement de l’oxyde de fer : $Fe_3O_4$.
+
+  a. Ecrire l’équation chimique de la réaction chimique.
+  b. On fait réagir 5 g de fer avec 5 g de dioxygène. Prévoir à l’aide d’une tableau d’avancement les quantités de matières présentes lorsque la réaction est terminée.
+  c. Toujours à partir de 5 g de fer, quelle masse de dioxygène permet d’obtenir un mélange stoechiométrique ?
+  
+
+:::: {.blackbox data-latex=""}
+::: {.center data-latex=""}
+**NOTICE!**
+:::
+
+
+## Aides et éléments de corrections{-}
+
+Thank you for $E=mc^2$ noticing this **new notice**! Your noticing it has
+been noted, and _will be reported to the authorities_!
+
+1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 
+ 1. ljzoiej fizejf
+2. zefj zoeif
+3. zefij zef 
+
+### pzeok rpoze
+ek oez kzoef
+e zfpok zeofk
+ze f^pok ze ofk
+ fzefok pzeokzepofk
+ 
+ 
+::::

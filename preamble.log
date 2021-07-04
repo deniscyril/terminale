@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.16)  4 JUN 2021 19:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.24)  27 JUN 2021 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **preamble.tex
 (./preamble.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06>
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
 
 ! LaTeX Error: \usepackage before \documentclass.
 
@@ -38,7 +38,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 \usepackage{
-                amssymb,amsmath}
+                chemfig}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -49,13 +49,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \usepackage{
+l.5 \usepackage[french]{
+                        babel}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \usepackage{
                 eurosym}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
-\c@definition=\count167
-\c@theorem=\count168
+\c@definition=\count179
+\c@theorem=\count180
 
 ! LaTeX Error: Command \thesection undefined.
 
@@ -63,7 +75,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \renewcommand\thesection
+l.12 \renewcommand\thesection
                                     {\Roman{section}.}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -75,7 +87,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 \renewcommand\thesubsection
+l.13 \renewcommand\thesubsection
                                     {\thesection \arabic{subsection}.}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -87,7 +99,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 \renewcommand\thesubsubsection
+l.14 \renewcommand\thesubsubsection
                                     {\thesubsection \alph{subsubsection})}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -99,7 +111,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 \renewcommand\theparagraph
+l.15 \renewcommand\theparagraph
                                     {\thesubsubsection.\arabic{paragraph}}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -111,12 +123,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 \renewcommand\thesubparagraph
+l.16 \renewcommand\thesubparagraph
                                     {\theparagraph.\arabic{subparagraph}}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-\c@numeroexo=\count169
+\c@numeroexo=\count181
 )
 ! Emergency stop.
 <*> preamble.tex
@@ -125,11 +137,11 @@ If that doesn't work, type  X <return>  to quit.
 
  
 Here is how much of TeX's memory you used:
- 40 strings out of 480608
- 643 string characters out of 5903630
- 239610 words of memory out of 5000000
- 16033 multiletter control sequences out of 15000+600000
- 532338 words of font info for 24 fonts, out of 8000000 for 9000
+ 40 strings out of 478994
+ 644 string characters out of 5858184
+ 283044 words of memory out of 5000000
+ 17626 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 12i,0n,15p,101b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 13i,0n,15p,101b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
