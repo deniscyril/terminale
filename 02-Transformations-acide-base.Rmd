@@ -1,3 +1,36 @@
-# Literature
+# Réactions Acide-Base
 
-Here is a review of existing methods.
+
+## Couples Acide/Base
+
+:::: {.blackbox data-latex=""}
+::: {.center data-latex=""}
+**Questions**
+:::
+1. $HNO_2$ ; $H_3O^+$ ; $HPO_4^{-}$ ; $H_2O$ et $NH_4^+$ sont des acides. Ecrire la formule de leurs bases conjuguées.
+2. $NO_3^-$ ; $HSO_4^-$ ; $HPO_4^{-}$ ; $H_2O$ et $HO^-$ sont des bases. Ecrire la formule de leurs acides conjugées.
+3. Identifier les espèces amphotères.
+:::
+
+**Aides-Réponses**
+
+1. Un acide peut perdre un ion hydrogène $H^+$
+2. Une base peut capter un ion $H^+$ 
+3. Utiliser la définition d'amphotère. il y a deux espèces amphotères à trouver.
+
+## Equation de réaction entre un acide et une base
+
+:::: {.blackbox data-latex=""}
+::: {.center data-latex=""}
+**Questions**
+:::
+
+Ecrire les équations des réactions acide-base se produisant entre les espèces chimiques suivantes:
+
+1. Les ions propanoate $C_3H_5O_2^-$ et oxonium $H_3O^+$.
+2. L'acide sulfurique $H_2SO_4$ et l'eau $H_2O$.
+3. Les ions hydrogénosulfate $HSO_4^-$ et les ions hydroxyde $HO^-$.
+
+On donne les couples: $H_3O^+ / H_2O$ ; $H_2O/HO^-$ ; $H_2SO_4/HSO_4^-$ ; $HSO_4^-/SO_4^{2-}$ ; $C_3H_6O_2/C_3H_5O_2^-$
+:::
+
